@@ -36,7 +36,7 @@ Why SegFormer-B4:
 * strong global context modeling
 * memory efficient for high-resolution segmentation
 
-## 📊 Final Training Performance
+## Final Training Performance
 
 | Metric         | Score           |
 | -------------- | --------------- |
@@ -60,6 +60,7 @@ data/
 │   └── Segmentation/
 │
 └── testImages/
+
 
 ##  Trained Model (Kaggle)
 
