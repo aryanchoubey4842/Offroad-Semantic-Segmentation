@@ -134,11 +134,11 @@ Training outputs:
 * best_model.pth
 * loss_curve.png
 * <img width="640" height="480" alt="loss_curve" src="https://github.com/user-attachments/assets/7af84ddf-6168-4c25-8082-78ca939aaaba" />
-<img width="640" height="480" alt="loss_curve" src="https://github.com/user-attachments/assets/7af84ddf-6168-4c25-8082-78ca939aaaba" />
+
 
 * metrics_curve.png
 * <img width="640" height="480" alt="metrics_curve" src="https://github.com/user-attachments/assets/5c72257c-c4e3-4134-b2da-2d20b9154166" />
-<img width="640" height="480" alt="metrics_curve" src="https://github.com/user-attachments/assets/5c72257c-c4e3-4134-b2da-2d20b9154166" />
+
 
 
 ## Inference (Prediction)
@@ -206,10 +206,10 @@ Inference produces segmentation masks like:
 
 Example output:
 <img width="1919" height="552" alt="Screenshot 2026-02-18 234356" src="https://github.com/user-attachments/assets/756fb7c8-d9fd-4d06-9f88-574e1e4f74f2" />
-<img width="1919" height="552" alt="Screenshot 2026-02-18 234356" src="https://github.com/user-attachments/assets/756fb7c8-d9fd-4d06-9f88-574e1e4f74f2" />
+
 
 <img width="1919" height="552" alt="Screenshot 2026-02-18 234356" src="https://github.com/user-attachments/assets/c03a67ee-d16f-42b7-815a-b1e7d94680dd" />
-<img width="1919" height="552" alt="Screenshot 2026-02-18 234356" src="https://github.com/user-attachments/assets/c03a67ee-d16f-42b7-815a-b1e7d94680dd" />
+
 
 
 
