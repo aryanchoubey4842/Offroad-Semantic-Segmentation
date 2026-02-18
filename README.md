@@ -252,6 +252,3 @@ conda activate offroad
 python train.py
 python predict.py
 ```
-
-
-If you want, I can also give you a **🔥 Hackathon-judge-impressing README version** that looks like a top GitHub project (with badges, visuals, sections, and benchmark tables).
