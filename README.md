@@ -208,9 +208,7 @@ Example output:
 <img width="1919" height="552" alt="Screenshot 2026-02-18 234356" src="https://github.com/user-attachments/assets/756fb7c8-d9fd-4d06-9f88-574e1e4f74f2" />
 
 
-<img width="1919" height="552" alt="Screenshot 2026-02-18 234356" src="https://github.com/user-attachments/assets/c03a67ee-d16f-42b7-815a-b1e7d94680dd" />
-
-
+<img width="1919" height="535" alt="Screenshot 2026-02-18 234235" src="https://github.com/user-attachments/assets/4cf5b647-e87a-4447-b952-a0d971db0d15" />
 
 
 ##  Team / Author
