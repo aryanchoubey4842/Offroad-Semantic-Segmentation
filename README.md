@@ -1,9 +1,9 @@
 # Offroad-Semantic-Segmentation
 Off-road semantic segmentation project using SegFormer-B4 trained on custom terrain data. Includes training pipeline, strong data augmentation, mixed precision training, inference scripts, and evaluation metrics (IoU &amp; pixel accuracy) for robust terrain understanding.
 
-# 🚗 Offroad Semantic Segmentation (SegFormer-B4)
+# Offroad Semantic Segmentation (SegFormer-B4)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project performs **semantic segmentation for offroad scenes** using a Transformer-based architecture (**SegFormer-B4**).
 The model predicts pixel-level classes for terrain understanding, enabling tasks such as:
@@ -22,9 +22,7 @@ The pipeline includes:
 * inference script for test images
 * automatic metric plotting
 
----
-
-## 🧠 Model Architecture
+##  Model Architecture
 
 * **Backbone:** SegFormer-B4
 * **Pretrained Weights:** ADE20K
@@ -38,8 +36,6 @@ Why SegFormer-B4:
 * strong global context modeling
 * memory efficient for high-resolution segmentation
 
----
-
 ## 📊 Final Training Performance
 
 | Metric         | Score           |
@@ -51,11 +47,8 @@ Why SegFormer-B4:
 | Optimizer      | AdamW           |
 | LR Scheduler   | CosineAnnealing |
 
----
+##  Dataset Structure
 
-## 📂 Dataset Structure
-
-```
 data/
 │
 ├── train/
@@ -67,15 +60,12 @@ data/
 │   └── Segmentation/
 │
 └── testImages/
-```
 
----
-
-## 📦 Trained Model (Kaggle)
+##  Trained Model (Kaggle)
 
 The trained model weights are hosted on Kaggle:
 
-**🔗 Kaggle Dataset:**
+** Kaggle Dataset:**
 [https://www.kaggle.com/datasets/aryanchoubey4842/trained-model-for-offroad-semantic-segmentation](https://www.kaggle.com/datasets/aryanchoubey4842/trained-model-for-offroad-semantic-segmentation)
 
 Download and place:
@@ -86,9 +76,7 @@ best_model.pth
 
 inside the project root folder.
 
----
-
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 STARTATHON/
@@ -110,18 +98,16 @@ STARTATHON/
 └── data/
 ```
 
----
+##  Installation
 
-## ⚙️ Installation
-
-### 1️⃣ Create environment
+###  Create environment
 
 ```bash
 conda create -n offroad python=3.10
 conda activate offroad
 ```
 
-### 2️⃣ Install dependencies
+###  Install dependencies
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
@@ -132,9 +118,9 @@ pip install tqdm
 pip install matplotlib
 ```
 
----
 
-## 🚀 Training
+
+##  Training
 
 Run:
 
@@ -148,9 +134,7 @@ Training outputs:
 * loss_curve.png
 * metrics_curve.png
 
----
-
-## 🎯 Inference (Prediction)
+## Inference (Prediction)
 
 Run:
 
@@ -169,9 +153,7 @@ This will:
 predictions/Segmentation/
 ```
 
----
-
-## 📈 Metrics & Evaluation
+## Metrics & Evaluation
 
 During training:
 
@@ -184,9 +166,7 @@ Graphs automatically generated:
 * `loss_curve.png`
 * `metrics_curve.png`
 
----
-
-## 🔍 Key Optimizations Used
+## Key Optimizations Used
 
 * Mixed precision training (AMP)
 * Gradient accumulation
@@ -195,9 +175,7 @@ Graphs automatically generated:
 * Cosine LR scheduling
 * Pretrained transformer encoder
 
----
-
-## ⚠️ Important Notes
+##  Important Notes
 
 * Test images were **NOT used during training**.
 * Class IDs are remapped internally during dataset loading.
@@ -211,9 +189,7 @@ MISMATCH decode_head.classifier
 
 is expected and correct.
 
----
-
-## 📌 Expected Output
+##  Expected Output
 
 Inference produces segmentation masks like:
 
@@ -227,15 +203,11 @@ Example output:
 predictions/Segmentation/000327.png
 ```
 
----
-
-## 👨‍💻 Team / Author
+##  Team / Author
 
 Project developed by team GEEKS for semantic segmentation hackathon submission.
 
----
-
-## 🔮 Future Improvements
+##  Future Improvements
 
 * test-time augmentation (TTA)
 * model ensembling
@@ -243,12 +215,3 @@ Project developed by team GEEKS for semantic segmentation hackathon submission.
 * multi-scale training
 * Mask2Former comparison
 
----
-
-# ⭐ Quick Start (TL;DR)
-
-```bash
-conda activate offroad
-python train.py
-python predict.py
-```
