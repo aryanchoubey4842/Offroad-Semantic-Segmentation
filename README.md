@@ -215,6 +215,8 @@ Example output:
 
 Project developed by team GEEKS for semantic segmentation hackathon submission.
 
+# contributor : Rathod sagar
+
 ##  Future Improvements
 
 * test-time augmentation (TTA)
